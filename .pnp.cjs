@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["@vitest/ui", "npm:0.12.9"],\
+            ["blaze-shortener", "npm:0.0.1"],\
             ["jsdom", "virtual:8c9488167439d4d02c7cc6eb8b0f8d53847245b342b5684b93363a89beb948126cd030b1680c8581e4274581ab3a802c0749fb785c1162fe59e1f406a7b12e39#npm:19.0.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:8c9488167439d4d02c7cc6eb8b0f8d53847245b342b5684b93363a89beb948126cd030b1680c8581e4274581ab3a802c0749fb785c1162fe59e1f406a7b12e39#npm:18.1.0"],\
@@ -979,6 +980,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.5"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["@vitest/ui", "npm:0.12.9"],\
+            ["blaze-shortener", "npm:0.0.1"],\
             ["jsdom", "virtual:8c9488167439d4d02c7cc6eb8b0f8d53847245b342b5684b93363a89beb948126cd030b1680c8581e4274581ab3a802c0749fb785c1162fe59e1f406a7b12e39#npm:19.0.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:8c9488167439d4d02c7cc6eb8b0f8d53847245b342b5684b93363a89beb948126cd030b1680c8581e4274581ab3a802c0749fb785c1162fe59e1f406a7b12e39#npm:18.1.0"],\
@@ -987,6 +989,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vitest", "virtual:8c9488167439d4d02c7cc6eb8b0f8d53847245b342b5684b93363a89beb948126cd030b1680c8581e4274581ab3a802c0749fb785c1162fe59e1f406a7b12e39#npm:0.12.9"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["blaze-shortener", [\
+        ["npm:0.0.1", {\
+          "packageLocation": "./.yarn/cache/blaze-shortener-npm-0.0.1-4ba7a34683-8e1d204d37.zip/node_modules/blaze-shortener/",\
+          "packageDependencies": [\
+            ["blaze-shortener", "npm:0.0.1"],\
+            ["nanoid", "npm:3.3.4"],\
+            ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["brace-expansion", [\

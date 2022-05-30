@@ -752,6 +752,7 @@ __metadata:
     "@types/react-dom": ^18.0.0
     "@vitejs/plugin-react": ^1.3.0
     "@vitest/ui": ^0.12.9
+    blaze-shortener: ^0.0.1
     jsdom: ^19.0.0
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -760,6 +761,16 @@ __metadata:
     vitest: ^0.12.9
   languageName: unknown
   linkType: soft
+
+"blaze-shortener@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "blaze-shortener@npm:0.0.1"
+  dependencies:
+    nanoid: ^3.3.4
+    typescript: ^4.7.2
+  checksum: 8e1d204d37173b151f58e1edf517fde7571ffa9d85d6e70e07efa4d9ece998f8da7a2d308908621e586391c73ce1d910c6fa0a96f9727d14ff74ff4ff1c2d434
+  languageName: node
+  linkType: hard
 
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
@@ -2681,7 +2692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.3":
+"typescript@npm:^4.6.3, typescript@npm:^4.7.2":
   version: 4.7.2
   resolution: "typescript@npm:4.7.2"
   bin:
@@ -2691,7 +2702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.2#~builtin<compat/typescript>":
   version: 4.7.2
   resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"
   bin:
