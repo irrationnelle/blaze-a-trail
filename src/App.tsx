@@ -74,8 +74,10 @@ function App() {
   )
 }
 
+// @ts-ignore
 if (import.meta.vitest) {
-    const { describe, it, expect } = import.meta.vitest
+    // @ts-ignore
+  const { describe, it, expect } = import.meta.vitest
 
     describe('App: ', async () => {
         it('show shorten button', () => {
